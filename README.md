@@ -17,20 +17,6 @@ Fetch → Store → Compare → Alert → Visualize
 
 ---
 
-## 🎥 Live Demo
-
-### 🌐 Deployed Version (Vercel / Cloud)
-
-👉 Add your deployed link here:
-
-```bash
-https://your-project-name.vercel.app
-```
-
-> ⚠️ Note: Streamlit apps are usually deployed on **Streamlit Cloud / Render**, not Vercel.
-> If you still use Vercel, host frontend separately or show demo screenshots.
-
----
 
 ## 📸 Screenshots
 
@@ -148,22 +134,6 @@ streamlit run step3_app.py
 
 ---
 
-## 📊 Example Output
-
-### 🔴 Price Increase
-
-```
-INCREASE | Product Name | $20 → $25
-```
-
-### 🟢 Price Decrease
-
-```
-DECREASE | Product Name | $50 → $45
-```
-
----
-
 ## ⚠️ Configuration
 
 Update MySQL credentials in all files:
@@ -176,45 +146,6 @@ password="your_password"
 
 ---
 
-## 🚀 Deployment Guide
-
-### 🟣 Option 1: Streamlit Cloud (Recommended)
-
-1. Push code to GitHub
-2. Go to Streamlit Cloud
-3. Connect your repo
-4. Select `step3_app.py`
-5. Deploy
-
----
-
-### 🟡 Option 2: Render
-
-1. Create a new Web Service
-2. Add build command:
-
-```
-pip install -r requirements.txt
-```
-
-3. Start command:
-
-```
-streamlit run step3_app.py --server.port=10000 --server.address=0.0.0.0
-```
-
----
-
-### 🔵 Option 3: Vercel (Alternative Showcase)
-
-Vercel does NOT support Python backend directly for Streamlit.
-
-👉 You can:
-
-* Deploy screenshots (portfolio showcase)
-* Or create a simple frontend + API separately
-
----
 
 ## 🚧 Future Improvements
 
@@ -234,12 +165,6 @@ Contributions are welcome!
 2. Create a new branch
 3. Make changes
 4. Submit a pull request
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
 
 ---
 
